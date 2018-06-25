@@ -105,7 +105,6 @@ MatchGame.flipCard = function($card, $game) {
     if (flippedCards[0].data('value') === flippedCards[1].data('value')) {
       const rollSound = new Audio("./resources/explosion-04.wav");
       rollSound.play();
-      //addEventListener("click", e => rollSound.play());
       var matchCss = {
         backgroundColor: 'rgb(153, 153, 153)',
         color: 'rgb(204, 204, 204)'

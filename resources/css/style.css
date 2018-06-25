@@ -40,6 +40,7 @@ p {
   font-weight: 900;
   color: rgb(255, 255, 255);
   cursor: pointer;
+  -moz-user-select: none; /* Firefox */
 }
 
 #reset-button {
